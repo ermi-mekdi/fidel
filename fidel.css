@@ -9,6 +9,7 @@ text-align: center;
 font-size: xx-large;
 }
 /*menu*/
+/*
 ul {
   list-style-type: none;
   margin: 0;
@@ -32,7 +33,7 @@ li a {
 li a:hover {
   background-color: #111111;
 }
-
+*/
 button,span {
   width: 55px;
   height: 55px;
@@ -47,7 +48,7 @@ button,span {
   box-shadow: 2px 2px rgba(42, 43, 46, 0.473);
   
 }
-
+/*
 .arrow{
   text-align: right;
   
@@ -70,40 +71,13 @@ button,span {
   font-size: large;
   color:rgb(6, 6, 160) ;
 }
+*/
 /* CSS */
-.outer-div {
+/* outer-div {
   width: 70%;
   margin-left: 2px;
   margin-right: 2px;
   text-align: right;
   overflow: hidden;
   white-space: nowrap;
-}
-
-.inner-div {
-  float: right;
-}
-/* Style 1: Using display: inline; */
-div.nav1 ul li {
-  display: inline;
-  /* Other styling properties */
-}
-
-/* Style 2: Using float: left; */
-div.nav2 ul li {
-  float: left;
-  /* Other styling properties */
-}
-.div-leter{
-  width: 55px;
-  height: 55px;
-  margin: 8px 8px;
-  border: none;
-  background-color: rgba(202, 236, 10, 0.644);
-  padding: 8px 8px;
-  color: rgb(6, 6, 160);
-  font-weight: bolder;
-  border-radius: 20px;
-  font-size: large;
-  box-shadow: 2px 2px rgba(42, 43, 46, 0.473);
 }
