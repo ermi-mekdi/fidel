@@ -13,7 +13,7 @@ gLeters.forEach((gLeter) => {
 });
 
 document.querySelector('.js-fidelat-geez').innerHTML = gLetersHTML;
-console.log(gLetersHTML);
+//console.log(gLetersHTML);
 
 function playSound(soundFile) {
   const audio = document.getElementById("myAudio");
