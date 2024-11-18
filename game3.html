@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ጸወታ ፊደላት</title>
+    <link rel="stylesheet" type="text/css" href="style/game.css">
+    
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2>ጸወታ ፊደላት</h2>
+    <div id="quiz">
+        <div class="question" id="question1">
+            <p class="speaker" onclick="playSound('soundFile/ወ.mp3')">&#128362;</p>
+            <button class="answer-btn" onclick="checkAnswer(1, 0)">ኸ</button>
+            <button class="answer-btn" onclick="checkAnswer(1, 1)">ወ</button>
+            <button class="answer-btn" onclick="checkAnswer(1, 0)">ዐ</button>
+            <button class="answer-btn" onclick="checkAnswer(1, 0)">ዘ</button>
+            <button class="answer-btn" onclick="checkAnswer(1, 0)">ዠ</button>
+            <button class="answer-btn" onclick="checkAnswer(1, 0)">የ</button>
+            <button class="answer-btn" onclick="checkAnswer(1, 0)">ደ</button>
+            <button class="answer-btn" onclick="checkAnswer(1, 0)">ጀ</button>
+            <div class="result" id="result1"></div>
+        </div>
+
+        <div class="question" id="question2" >
+          <p class="speaker" onclick="playSound('soundFile/ዘ.mp3')">&#128362;</p>
+          
+          <button class="answer-btn" onclick="checkAnswer(2, 0)">ኸ</button>
+          <button class="answer-btn" onclick="checkAnswer(2, 0)">ወ </button>
+          <button class="answer-btn" onclick="checkAnswer(2, 0)">ዐ</button>
+          <button class="answer-btn" onclick="checkAnswer(2, 1)">ዘ</button>
+          <button class="answer-btn" onclick="checkAnswer(2, 0)">ዠ</button>
+          <button class="answer-btn" onclick="checkAnswer(2, 0)">የ</button>
+          <button class="answer-btn" onclick="checkAnswer(2, 0)">ደ </button>
+          <button class="answer-btn" onclick="checkAnswer(2, 0)">ጀ</button>
+          <div class="result" id="result2"></div>
+        </div>
+
+        <div class="question" id="question3" >
+          <p class="speaker" onclick="playSound('soundFile/ዐ.mp3')">&#128362;</p>
+          
+          <button class="answer-btn" onclick="checkAnswer(3, 0)">ኸ</button>
+          <button class="answer-btn" onclick="checkAnswer(3, 0)">ወ</button>
+          <button class="answer-btn" onclick="checkAnswer(3, 1)">ዐ</button>
+          <button class="answer-btn" onclick="checkAnswer(3, 0)"> ዘ </button>
+          <button class="answer-btn" onclick="checkAnswer(3, 0)">ዠ</button>
+          <button class="answer-btn" onclick="checkAnswer(3, 0)">የ</button>
+          <button class="answer-btn" onclick="checkAnswer(3, 0)">ደ</button>
+          <button class="answer-btn" onclick="checkAnswer(3, 0)">ጀ</button>
+          <div class="result" id="result3"></div>
+        </div>
+
+        <div class="question" id="question4" >
+          <p class="speaker" onclick="playSound('soundFile/ዠ.mp3')">&#128362;</p>
+          
+          <button class="answer-btn" onclick="checkAnswer(4, 0)">ኸ</button>
+          <button class="answer-btn" onclick="checkAnswer(4, 0)">ወ</button>
+          <button class="answer-btn" onclick="checkAnswer(4, 0)">ዐ</button>
+          <button class="answer-btn" onclick="checkAnswer(4, 0)">ዘ</button>
+          <button class="answer-btn" onclick="checkAnswer(4, 1)">ዠ</button>
+          <button class="answer-btn" onclick="checkAnswer(4, 0)">የ</button>
+          <button class="answer-btn" onclick="checkAnswer(4, 0)">ደ</button>
+          <button class="answer-btn" onclick="checkAnswer(4, 0)">ጀ</button>
+          <div class="result" id="result4"></div>
+      </div>
+
+      <div class="question" id="question5">
+        <p class="speaker" onclick="playSound('soundFile/ኸ.mp3')">&#128362;</p>
+        <button class="answer-btn" onclick="checkAnswer(5, 1)">ኸ</button>
+        <button class="answer-btn" onclick="checkAnswer(5, 0)">ወ</button>
+        <button class="answer-btn" onclick="checkAnswer(5, 0)">ዐ</button>
+        <button class="answer-btn" onclick="checkAnswer(5, 0)">ዘ</button>
+        <button class="answer-btn" onclick="checkAnswer(5, 0)">ዠ</button>
+        <button class="answer-btn" onclick="checkAnswer(5, 0)">የ</button>
+        <button class="answer-btn" onclick="checkAnswer(5, 0)">ደ</button>
+        <button class="answer-btn" onclick="checkAnswer(5, 0)">ጀ</button>
+        <div class="result" id="result5"></div>
+      </div>
+
+      <div class="question" id="question6">
+        <p class="speaker" onclick="playSound('soundFile/ጀ.mp3')">&#128362;</p>
+        <button class="answer-btn" onclick="checkAnswer(6, 0)">ኸ</button>
+        <button class="answer-btn" onclick="checkAnswer(6, 0)">ወ</button>
+        <button class="answer-btn" onclick="checkAnswer(6, 0)">ዐ</button>
+        <button class="answer-btn" onclick="checkAnswer(6, 0)">ዘ</button>
+        <button class="answer-btn" onclick="checkAnswer(6, 0)">ዠ</button>
+        <button class="answer-btn" onclick="checkAnswer(6, 0)">የ</button>
+        <button class="answer-btn" onclick="checkAnswer(6, 0)">ደ</button>
+        <button class="answer-btn" onclick="checkAnswer(6, 1)">ጀ</button>
+        <div class="result" id="result6"></div>
+      </div>
+
+      <div class="question" id="question7">
+        <p class="speaker" onclick="playSound('soundFile/የ.mp3')">&#128362;</p>
+        <button class="answer-btn" onclick="checkAnswer(7, 0)">ኸ</button>
+        <button class="answer-btn" onclick="checkAnswer(7, 0)">ወ</button>
+        <button class="answer-btn" onclick="checkAnswer(7, 0)">ዐ</button>
+        <button class="answer-btn" onclick="checkAnswer(7, 0)">ዘ</button>
+        <button class="answer-btn" onclick="checkAnswer(7, 0)">ዠ</button>
+        <button class="answer-btn" onclick="checkAnswer(7, 1)">የ</button>
+        <button class="answer-btn" onclick="checkAnswer(7, 0)">ደ</button>
+        <button class="answer-btn" onclick="checkAnswer(7, 0)">ጀ</button>
+        <div class="result" id="result7"></div>
+      </div>
+
+      <div class="question" id="question8">
+        <p class="speaker" onclick="playSound('soundFile/ደ.mp3')">&#128362;</p>
+        <button class="answer-btn" onclick="checkAnswer(8, 0)">ኸ</button>
+        <button class="answer-btn" onclick="checkAnswer(8, 0)">ወ</button>
+        <button class="answer-btn" onclick="checkAnswer(8, 0)">ዐ</button>
+        <button class="answer-btn" onclick="checkAnswer(8, 0)">ዘ</button>
+        <button class="answer-btn" onclick="checkAnswer(8, 0)">ዠ</button>
+        <button class="answer-btn" onclick="checkAnswer(8, 0)">የ</button>
+        <button class="answer-btn" onclick="checkAnswer(8, 1)">ደ</button>
+        <button class="answer-btn" onclick="checkAnswer(8, 0)">ጀ</button>
+        <div class="result" id="result8"></div>
+      </div>
+
+        <div id="score" class="result"></div>
+        <button id="restart-btn" style="display: none;" onclick="restartQuiz()">Restart እንደገና ናብ ጸወታ</button>
+        <a href="game4.html"><button  style="display: none;" id="nextGame">ናብ ዝቕጽል ==></button></a>
+        
+    </div>
+</div>
+
+ <!-- Audio element for playing sounds -->
+ <audio id="myAudio"></audio>
+
+<script src="scripts/game.js"></script>
+<script src="data/leters.js"></script>
+
+
+</body>
+</html>
