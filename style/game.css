@@ -71,3 +71,35 @@ h2 {
   background-color: #0056b3;
   
 }
+.answer-btn {
+  padding: 20px 40px;
+  font-size: 24px;
+  background-color: #4caf50;  /* Green Button */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.answer-btn:active {
+animation: jumpAndWiggle 0.7s ease-in-out; /*  Animation on click */
+}
+
+@keyframes jumpAndWiggle {
+  0% {
+      transform: translateY(0) rotate(0deg);
+  }
+  25% {
+      transform: translateY(-15px) rotate(5deg);
+  }
+  50% {
+      transform: translateY(0) rotate(-10deg);
+  }
+  75% {
+      transform: translateY(-8px) rotate(8deg);
+  }
+  100% {
+       transform: translateY(0) rotate(0deg);
+  }
+}
