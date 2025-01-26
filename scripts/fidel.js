@@ -1,9 +1,5 @@
 
 
-
-
-
-
 let gLetersHTML = '';
 
 gLeters.forEach((gLeter) => {
@@ -20,3 +16,22 @@ function playSound(soundFile) {
   audio.src = soundFile; // Set the source of the audio element
   audio.play(); // Play the audio
 };
+function getRandomColor() {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+function setRandomGradient() {
+  const color1 = getRandomColor();
+  const color2 = getRandomColor();
+  document.body.style.background = `linear-gradient(to right, ${color1}, ${color2})`;
+}
+// Set a new random gradient background color every minute (60000 milliseconds)
+setInterval(setRandomGradient, 10000);
+
+// Set a new random gradient background color when the page loads
+window.onload = setRandomGradient;
