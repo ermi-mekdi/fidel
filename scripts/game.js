@@ -30,6 +30,7 @@ function checkAnswer(questionNumber, selectedValue) {
   if (selectedValue === correctAnswer) {
       score++;
       resultDiv.textContent = " ተዓወት/ቲ!";
+      playSound('./soundFile/ተዓወት.mp3');
       resultDiv.classList.add("correct");
       setTimeout(nextQuestion, 1000); // Move to next question after 1 second delay
   } else {
