@@ -51,6 +51,31 @@ button,span {
 .togame{
   width: auto;
 }
+#card-img,card-eg{
+  position: fixed;
+  top: 8%; /* Adjust the position as needed */
+  left: 5%; /* Adjust the position as needed */
+  background-color: rgba(173, 216, 230, 0.527);
+  padding: 10px;
+  font-size: 3rem;
+  width: 100px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+}
+#card-eg{
+  position: fixed;
+  top: 8%; /* Adjust the position as needed */
+  left: 55%; /* Adjust the position as needed */
+  background-color: rgba(173, 216, 230, 0.425);
+  padding: 10px;
+  font-size: 3rem;
+  
+  width: 100px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+}
 
 .arrow{
   text-align: right;
