@@ -31,8 +31,8 @@ const fulls = [
 [
   {id: "መ", name: "መ", sound: "soundFile/መ.mp3",  img: 'https://cdn.pixabay.com/photo/2017/01/31/23/28/book-2028193_1280.png',  eg: '📖'},
   {id : 'ሙ', name: 'ሙ', sound: 'soundFile/ሙ.mp3', img: 'https://cdn.pixabay.com/photo/2017/02/01/00/24/music-2028528_1280.png', eg: '🎵🎵'  },
-  {id : 'ሚ', name: 'ሚ', sound: 'soundFile/ሚ.mp3', img: 'https://cdn.pixabay.com/photo/2016/04/01/09/07/bunny-1299162_1280.png', eg: '🐇'},
-  {id : 'ማ', name: 'ማ', sound: 'soundFile/ማ.mp3',  img: '', eg: ''},
+  {id : 'ሚ', name: 'ሚ', sound: 'soundFile/ሚ.mp3', img: '', eg: ''},
+  {id : 'ማ', name: 'ማ', sound: 'soundFile/ማ.mp3',  img: 'https://cdn.pixabay.com/photo/2016/04/01/09/07/bunny-1299162_1280.png', eg: '🐇'},
   {id : 'ሜ', name: 'ሜ', sound: 'soundFile/ሜ.mp3', img: '',  eg: ''},
   {id : 'ም', name: 'ም', sound: 'soundFile/ም.mp3', img: '',  eg: ''},
   {id : 'ሞ', name: 'ሞ', sound: 'soundFile/ሞ.mp3', img: '', eg: ''},
