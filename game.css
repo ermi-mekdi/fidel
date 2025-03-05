@@ -21,7 +21,7 @@ body {
   margin-top: 0px;
   border-radius: 10px;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.514) ;
-  margin-left:10px; animation: jumpAndWiggle 0.7s ease-in-out;
+  margin:10px; animation: jumpAndWiggle 0.7s ease-in-out;
 }
 .icon{
   margin-top: 0%;
