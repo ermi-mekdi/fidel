@@ -117,7 +117,7 @@ function restartQuiz() {
   function setRandomGradient() {
     const color1 = getRandomColor();
     const color2 = getRandomColor();
-    document.body.style.background = `linear-gradient(to bottom, ${color1}, ${color2})`;
+    document.body.style.background = `linear-gradient(to right, ${color1}, ${color2})`;
   }
   // Set a new random gradient background color every minute (60000 milliseconds)
   setInterval(setRandomGradient, 5000);
