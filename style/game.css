@@ -9,7 +9,10 @@ body {
   background-attachment:fixed;
   background-color: full;  
 }
-#score{ font-weight: bold; text-align: right; margin-right: 15px;}
+#score{ font-weight: bold; text-align: right; 
+  margin-top: 0px; margin-bottom: 0px;
+  margin-right: 10px;
+}
 .speaker{
   width: 40px;
 }
