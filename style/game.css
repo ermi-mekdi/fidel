@@ -35,9 +35,9 @@ body {
 }
 .icon{
   margin-top: 0%;
-  width:90px; 
+  width:60px; 
   animation: jumpAndWiggle continos 1.7s ease-in-out;
-  border-radius: 10px 50px 10px 30px; box-shadow: 3px 3px rgba(0, 0, 0, 0.514) ;
+  border-radius: 10px 40px 10px 20px; box-shadow: 3px 3px rgba(0, 0, 0, 0.514) ;
 }
 a:link{
   color: white;
