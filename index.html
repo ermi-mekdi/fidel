@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="tig">
+<html lang="ti">
   <head >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style/fidel.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="style/fidel.css">  
+    <link rel="icon" type="image/x-icon" href="/foto/icon.jpg"> 
     <title>ፊደላት</title>  
   </head>
-  <body>  
-    <p><h2 class="header">ፊደላት</h></p>
-      <div class="main"> 
-        <div class="button-leter  js-fidelat-geez" ></div>
-      </div>
-       <a href="fullLeter.html"><button class="togame">ናብ ኩሉ ፊደላት</button></a>
-       <a href="game1.html"><button class="togame"> To game</button></a>  
-  <audio id="myAudio"></audio>     
-  <script src="./data/leters.js"></script>
-  <script src="./scripts/fidel.js"></script>  
+  <body>
+   
+    <p><h2 class="header"> ፊደላት</h></p>
+      <span id="card-img" ></span>
+      <span size="larger" id="card-eg" ></span>
+
+      <div class="js-geez"></div>      
+      <a href="fullLeter.html"><button class="togame"> ናብ ምሉእ ፊደላት</button></a>
+      <a href="game1.html"><button class="togame"> ናብ ጸወታ</button></a>      
+  <audio id="myAudio"></audio>  
+ <script src="./data/fullLeters.js"></script>
+ <script src="./scripts/fidel.js"></script>
+ <script>
+      let fullgHTML= ''; 
+          fulls.forEach((subFulls, index) => {
+              const obj = subFulls[0];
+              fullgHTML+=`
+                <button  onclick="playSee('${obj.sound}', '${obj.img}', '${obj.alt}', '${obj.eg}')">${obj.name}</button>  
+              `;
+           });
+          document.querySelector('.js-geez').innerHTML = fullgHTML ;
+  </script>
   </body>
+
 </html>
