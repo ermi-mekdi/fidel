@@ -13,6 +13,10 @@ body {
   margin-top: 0px; margin-bottom: 0px;
   margin-right: 10px;
 }
+.arow{ font-size: 1.5em;
+  font-weight: bold;
+  animation: jumpAndWiggle continos 1.7s ease-in-out;
+}
 .speaker{
   width: 40px;
 }
