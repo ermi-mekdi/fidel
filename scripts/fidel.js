@@ -1,21 +1,44 @@
 
 
-let gLetersHTML = '';
+    function playSee(soundFile, src, alt, eg) {
+      const audio = document.getElementById("myAudio");      
+      audio.src = soundFile; // Set the source of the audio element
+      audio.play(); // Play the audio        
 
-gLeters.forEach((gLeter) => {
-  gLetersHTML += `
-  <button id="${gLeter.id}" onclick="playSound('${gLeter.sound}')" data-button ="button" >${gLeter.name}</button>
-  `;
-});
+            // Create a new img element
+            var imgElement = document.createElement('img');
+            // Set the src attribute of the img element
+            imgElement.src = src;
+            // Optionally, set other attributes like alt, width, height, etc.
+            imgElement.alt = alt;
+            imgElement.width = 200; // Set the width to 300 pixels
+            //imgElement.height = 150; // Set the height to 200 pixels
+            // Append the img element to the container
+            document.getElementById('card-img').appendChild(imgElement);        
+            
+            var newElement = document.createElement('div');
+            // Set the content of the new element
+            newElement.textContent = eg;
+            // Append the new element to the container
+            document.getElementById('card-eg').appendChild(newElement);
 
-document.querySelector('.js-fidelat-geez').innerHTML = gLetersHTML;
-//console.log(gLetersHTML);
+            // Remove the img element after 2 seconds
+            setTimeout(function() {
+                imgElement.remove();
+                newElement.remove();
+            }, 3000);
+          
+    };
+ 
 
 function playSound(soundFile) {
   const audio = document.getElementById("myAudio");
   audio.src = soundFile; // Set the source of the audio element
   audio.play(); // Play the audio
 };
+
+
+
 function getRandomColor() {
   const letters = '0123456789ABCDEF';
   let color = '#';
