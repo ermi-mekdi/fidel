@@ -5,18 +5,18 @@ const fulls = [
   {id : 'ሁ',  name: 'ሁ',   sound: 'soundFile/ሁ.mp3',   img: '',   eg: '', alt:''},
   {id : 'ሂ',  name: 'ሂ',   sound: 'soundFile/ሂ.mp3',   img: '',   eg: '', alt:''},
   { id : 'ሃ',  name: 'ሃ',   sound: 'soundFile/ሃ.mp3',   img: '',   eg: 'ሃመማ', alt:''},
-  { id : 'ሄ', name: 'ሄ', sound: 'soundFile/ሄ.mp3',    img: '',  eg: 'ሄሊኮፕተር', alt:''},
-  {id : 'ህ', name: 'ህ', sound: 'soundFile/ህ.mp3', img: 'https://cdn.pixabay.com/photo/2016/03/31/19/31/animal-1295082_1280.png',   eg: 'ህበይ', alt:''},
+  { id : 'ሄ', name: 'ሄ', sound: 'soundFile/ሄ.mp3',    img: 'https://cdn.pixabay.com/photo/2022/08/16/19/10/oamtc-7390990_1280.jpg',  eg: 'ሄሊኮፕተር', alt:'&128641;'},
+  {id : 'ህ', name: 'ህ', sound: 'soundFile/ህ.mp3', img: 'https://cdn.pixabay.com/photo/2016/03/31/19/31/animal-1295082_1280.png',   eg: 'ህበይ', alt:'&#128018;'},
   {id : 'ሆ',   name: 'ሆ',   sound: 'soundFile/ሆ.mp3',   img: '',   eg: '', alt:''},
 ],
  [
   {id: "ለ",  name: "ለ",  sound: "soundFile/ለ.mp3",  img: 'https://cdn.pixabay.com/photo/2015/05/07/12/18/lemon-756390_1280.jpg',   eg: 'ለሚን', alt:'🍋'},
-  {id : 'ሉ',   name: 'ሉ',   sound: 'soundFile/ሉ.mp3',   img: '',   eg: 'ሉል'},
-  {id : 'ሊ',   name: 'ሊ',   sound: 'soundFile/ሊ.mp3',  img: '',  eg: 'ሊሎ'},
+  {id : 'ሉ',   name: 'ሉ',   sound: 'soundFile/ሉ.mp3',   img: '',   eg: 'ሉል', alt:''},
+  {id : 'ሊ',   name: 'ሊ',   sound: 'soundFile/ሊ.mp3',  img: '',  eg: 'ሊሎ', alt:''},
   {id : 'ላ',  name: 'ላ',  sound: 'soundFile/ላ.mp3',  img: 'https://cdn.pixabay.com/photo/2017/03/15/12/00/cow-2146011_1280.png', eg: '',alt:'&#128004;' },
-  {id : 'ሌ',  name: 'ሌ',   sound: 'soundFile/ሌ.mp3',  img: '',  eg: ''},
-  {id : 'ል',  name: 'ል',  sound: 'soundFile/ል.mp3',  img: '',  eg: ''},
-  {id : 'ሎ', name: 'ሎ', sound: 'soundFile/ሎ.mp3', img: '', eg: ''},
+  {id : 'ሌ',  name: 'ሌ',   sound: 'soundFile/ሌ.mp3',  img: '',  eg: '', alt:''},
+  {id : 'ል',  name: 'ል',  sound: 'soundFile/ል.mp3',  img: '',  eg: '', alt:''},
+  {id : 'ሎ', name: 'ሎ', sound: 'soundFile/ሎ.mp3', img: '', eg: '', alt:''},
 ],
 [
     {id: "ሐ", name: "ሐ", sound: "soundFile/ሐ.mp3", img: '', eg: '', alt:''},
@@ -33,17 +33,17 @@ const fulls = [
   {id : 'ሚ', name: 'ሚ', sound: 'soundFile/ሚ.mp3', img: '', eg: '', alt:' '},
   {id : 'ማ', name: 'ማ', sound: 'soundFile/ማ.mp3',  img: 'https://cdn.pixabay.com/photo/2016/04/01/09/07/bunny-1299162_1280.png', eg: 'ማንቲለ', alt:'🐇 '},
   {id : 'ሜ', name: 'ሜ', sound: 'soundFile/ሜ.mp3', img: '',  eg: '', alt:' '},
-  {id : 'ም', name: 'ም', sound: 'soundFile/ም.mp3', img: '',  eg: '', alt:' '},
+  {id : 'ም', name: 'ም', sound: 'soundFile/ም.mp3', img: '',  eg: 'ምጹጹላይ', alt:'&#129448; '},
   {id : 'ሞ', name: 'ሞ', sound: 'soundFile/ሞ.mp3', img: '', eg: 'ሞባይል', alt:' 📱'},
 ],
 [
   {id: 'ሰ', name: "ሰ", sound: "soundFile/ሰ.mp3", img: 'https://cdn.pixabay.com/photo/2018/02/01/06/38/alarm-3122687_1280.png', eg: 'ሰዓት', alt:' '},
-  {id : 'ሱ', name: 'ሱ', sound: 'soundFile/ሱ.mp3', img: '',  eg: '', alt:' '},
+  {id : 'ሱ', name: 'ሱ', sound: 'soundFile/ሱ.mp3', img: '',  eg: '', alt:''},
   {id : 'ሲ', name: 'ሲ', sound: 'soundFile/ሲ.mp3',  img: '', eg: 'ሲነማ', alt:' 📽️ '},
   {id : 'ሳ', name: 'ሳ', sound: 'soundFile/ሳ.mp3', img: '',  eg: 'ሳእኒ', alt:'  👟👠'},
-  {id : 'ሴ', name: 'ሴ', sound: 'soundFile/ሴ.mp3', img: '', eg: '', alt:' '},
-  {id : 'ስ', name: 'ስ', sound: 'soundFile/ስ.mp3', img: 'https://cdn.pixabay.com/photo/2024/01/29/14/17/tooth-8539963_1280.png', eg: 'ስኒ', alt:' '},
-  {id : 'ሶ', name: 'ሶ', sound: 'soundFile/ሶ.mp3', img: '',  eg: '', alt:' '},
+  {id : 'ሴ', name: 'ሴ', sound: 'soundFile/ሴ.mp3', img: '', eg: '', alt:''},
+  {id : 'ስ', name: 'ስ', sound: 'soundFile/ስ.mp3', img: 'https://cdn.pixabay.com/photo/2024/01/29/14/17/tooth-8539963_1280.png', eg: 'ስኒ', alt:' &#129463;'},
+  {id : 'ሶ', name: 'ሶ', sound: 'soundFile/ሶ.mp3', img: '',  eg: '', alt:''},
 ],
 [
   {id: 'ረ' , name: 'ረ' , sound: 'soundFile/ረ.mp3' , img: '' , eg: '' , alt:' '},
@@ -69,7 +69,7 @@ const fulls = [
   {id: 'ቂ' , name: 'ቂ' , sound: 'soundFile/ቂ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ቃ' , name: 'ቃ' , sound: 'soundFile/ቃ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ቄ' , name: 'ቄ' , sound: 'soundFile/ቄ.mp3' , img: '' , eg: '' , alt:' '},
-  {id: 'ቅ' , name: 'ቅ' , sound: 'soundFile/ቅ.mp3' , img: '' , eg: '' , alt:' '},
+  {id: 'ቅ' , name: 'ቅ' , sound: 'soundFile/ቅ.mp3' , img: '' , eg: 'ቅንፍዝ' , alt:' '},
   {id: 'ቆ' , name: 'ቆ' , sound: 'soundFile/ቆ.mp3' , img: '' , eg: '' , alt:' '}
 ],
 [
@@ -87,7 +87,7 @@ const fulls = [
   {id: 'ቢ' , name: 'ቢ' , sound: 'soundFile/ቢ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ባ' , name: 'ባ' , sound: 'soundFile/ባ.mp3' , img: 'https://cdn.pixabay.com/photo/2013/07/13/12/10/railroad-159321_960_720.png' , eg: 'ባቡር', alt:' ' },
   {id: 'ቤ' , name: 'ቤ' , sound: 'soundFile/ቤ.mp3' , img: '' , eg: '' , alt:' '},
-  {id: 'ብ' , name: 'ብ' , sound: 'soundFile/ብ.mp3' , img: 'https://cdn.pixabay.com/photo/2019/08/13/20/51/bike-4404230_1280.jpg' , eg: 'ብሽክለታ' , alt:' '},
+  {id: 'ብ' , name: 'ብ' , sound: 'soundFile/ብ.mp3' , img: 'https://cdn.pixabay.com/photo/2019/08/13/20/51/bike-4404230_1280.jpg' , eg: 'ብሽክለታ' , alt:'&#128690; '},
   {id: 'ቦ' , name: 'ቦ' , sound: 'soundFile/ቦ.mp3' , img: 'https://cdn.pixabay.com/photo/2017/09/08/07/59/bag-2728000_960_720.png' , eg: 'ቦርሳ' , alt:'👜 '}
 ],
 [
@@ -100,8 +100,8 @@ const fulls = [
   {id: 'ቮ' , name: 'ቮ' , sound: 'soundFile/ቮ.mp3' , img: '' , eg: '' , alt:' '}
 ],
 [
-  {id: 'ተ' , name: 'ተ' , sound: 'soundFile/ተ.mp3' , img: 'https://cdn.pixabay.com/photo/2012/04/30/11/01/head-44803_1280.png' , eg: ' ' , alt: '🐍'},
-  {id: 'ቱ' , name: 'ቱ' , sound: 'soundFile/ቱ.mp3' , img: 'https://cdn.pixabay.com/photo/2020/01/10/16/01/fruit-4755595_1280.png' , eg: '' , alt:' 🍏'},
+  {id: 'ተ' , name: 'ተ' , sound: 'soundFile/ተ.mp3' , img: 'https://cdn.pixabay.com/photo/2012/04/30/11/01/head-44803_1280.png' , eg: 'ተመን ' , alt: '🐍'},
+  {id: 'ቱ' , name: 'ቱ' , sound: 'soundFile/ቱ.mp3' , img: 'https://cdn.pixabay.com/photo/2020/01/10/16/01/fruit-4755595_1280.png' , eg: 'ቱፋሕ' , alt:' 🍏'},
   {id: 'ቲ' , name: 'ቲ' , sound: 'soundFile/ቲ.mp3' , img: '' , eg: '', alt:' ' },
   {id: 'ታ' , name: 'ታ' , sound: 'soundFile/ታ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ቴ' , name: 'ቴ' , sound: 'soundFile/ቴ.mp3' , img: 'https://cdn.pixabay.com/photo/2022/08/29/12/12/vintage-telephone-7418810_1280.jpg' , eg: 'ቴሌፎን' , alt:'☎️ '},
@@ -123,7 +123,7 @@ const fulls = [
   {id: 'ኒ' , name: 'ኒ' , sound: 'soundFile/ኒ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ና' , name: 'ና' , sound: 'soundFile/ና.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ኔ' , name: 'ኔ' , sound: 'soundFile/ኔ.mp3' , img: '' , eg: '' , alt:' '},
-  {id: 'ን' , name: 'ን' , sound: 'soundFile/ን.mp3' , img: '' , eg: '' , alt:' '},
+  {id: 'ን' , name: 'ን' , sound: 'soundFile/ን.mp3' , img: '' , eg: 'ንህቢ' , alt:'🐝 '},
   {id: 'ኖ' , name: 'ኖ' , sound: 'soundFile/ኖ.mp3' , img: '' , eg: '' , alt:' '}
 ],
 [
@@ -148,7 +148,7 @@ const fulls = [
   {id: 'ከ' , name: 'ከ' , sound: 'soundFile/ከ.mp3' , img: 'https://cdn.pixabay.com/photo/2017/06/15/06/28/dog-2404286_1280.png' , eg: 'ከልቢ' , alt:' 🐕'},
   {id: 'ኩ' , name: 'ኩ' , sound: 'soundFile/ኩ.mp3' , img: 'https://cdn.pixabay.com/photo/2013/07/13/10/51/football-157930_1280.png' , eg: 'ኩዑሶ' , alt:' 🏀'},
   {id: 'ኪ' , name: 'ኪ' , sound: 'soundFile/ኪ.mp3' , img: '' , eg: '' , alt:' '},
-  {id: 'ካ' , name: 'ካ' , sound: 'soundFile/ካ.mp3' , img: '' , eg: '' , alt:' '},
+  {id: 'ካ' , name: 'ካ' , sound: 'soundFile/ካ.mp3' , img: '' , eg: 'ካንጋሩ' , alt:'&#129432; '},
   {id: 'ኬ' , name: 'ኬ' , sound: 'soundFile/ኬ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ክ' , name: 'ክ' , sound: 'soundFile/ክ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ኮ' , name: 'ኮ' , sound: 'soundFile/ኮ.mp3' , img: 'https://cdn.pixabay.com/photo/2022/11/15/18/37/shooting-star-7594539_1280.jpg' , eg: 'ኮኾብ', alt:'⭐ ' }
@@ -220,14 +220,14 @@ const fulls = [
   {id: 'ጀ' , name: 'ጀ' , sound: 'soundFile/ጀ.mp3' , img: '' , eg: 'ጀበና' , alt:' '},
   {id: 'ጁ' , name: 'ጁ' , sound: 'soundFile/ጁ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጂ' , name: 'ጂ' , sound: 'soundFile/ጂ.mp3' , img: '' , eg: '' , alt:' '},
-  {id: 'ጃ' , name: 'ጃ' , sound: 'soundFile/ጃ.mp3' , img: 'https://cdn.pixabay.com/photo/2015/11/28/17/50/origami-1067673_1280.jpg' , eg: 'ጃልባ' , alt:' '},
+  {id: 'ጃ' , name: 'ጃ' , sound: 'soundFile/ጃ.mp3' , img: 'https://cdn.pixabay.com/photo/2015/11/28/17/50/origami-1067673_1280.jpg' , eg: 'ጃልባ' , alt:'&#128676; '},
   {id: 'ጄ' , name: 'ጄ' , sound: 'soundFile/ጄ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጅ' , name: 'ጅ' , sound: 'soundFile/ጅ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጆ' , name: 'ጆ' , sound: 'soundFile/ጆ.mp3' , img: '' , eg: '' , alt:' '}
 ],
 [
   {id: 'ገ' , name: 'ገ' , sound: 'soundFile/ገ.mp3' , img: 'https://cdn.pixabay.com/photo/2016/04/01/09/25/animal-1299355_960_720.png' , eg: 'ገመል' , alt:' 🐪'},
-  {id: 'ጉ' , name: 'ጉ' , sound: 'soundFile/ጉ.mp3' , img: '' , eg: '' , alt:' '},
+  {id: 'ጉ' , name: 'ጉ' , sound: 'soundFile/ጉ.mp3' , img: '' , eg: '' , alt:' &#129435;'},
   {id: 'ጊ' , name: 'ጊ' , sound: 'soundFile/ጊ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጋ' , name: 'ጋ' , sound: 'soundFile/ጋ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጌ' , name: 'ጌ' , sound: 'soundFile/ጌ.mp3' , img: '' , eg: '' , alt:' '},
@@ -238,7 +238,7 @@ const fulls = [
   {id: 'ጠ' , name: 'ጠ' , sound: 'soundFile/ጠ.mp3' , img: 'https://cdn.pixabay.com/photo/2013/07/13/01/14/gecko-155365_1280.png' , eg: 'ጠበቕ' , alt:' 🦎'},
   {id: 'ጡ' , name: 'ጡ' , sound: 'soundFile/ጡ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጢ' , name: 'ጢ' , sound: 'soundFile/ጢ.mp3' , img: '' , eg: '' , alt:' '},
-  {id: 'ጣ' , name: 'ጣ' , sound: 'soundFile/ጣ.mp3' , img: 'https://cdn.pixabay.com/photo/2020/03/30/04/09/bugs-4982974_1280.jpg' , eg: 'ጣንጡ' , alt:' '},
+  {id: 'ጣ' , name: 'ጣ' , sound: 'soundFile/ጣ.mp3' , img: 'https://cdn.pixabay.com/photo/2020/03/30/04/09/bugs-4982974_1280.jpg' , eg: 'ጣንጡ' , alt:'&#129439; '},
   {id: 'ጤ' , name: 'ጤ' , sound: 'soundFile/ጤ.mp3' , img: 'https://cdn.pixabay.com/photo/2022/11/22/11/37/goat-7609397_960_720.jpg' , eg: 'ጤል' , alt:' 🐐'},
   {id: 'ጥ' , name: 'ጥ' , sound: 'soundFile/ጥ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጦ' , name: 'ጦ' , sound: 'soundFile/ጦ.mp3' , img: '' , eg: '' , alt:' '}
@@ -265,7 +265,7 @@ const fulls = [
   {id: 'ጸ' , name: 'ጸ' , sound: 'soundFile/ጸ.mp3' , img: 'https://cdn.pixabay.com/photo/2014/05/18/00/33/sun-346710_1280.png' , eg: 'ጸሓይ' , alt:' 🌞'},
   {id: 'ጹ' , name: 'ጹ' , sound: 'soundFile/ጹ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጺ' , name: 'ጺ' , sound: 'soundFile/ጺ.mp3' , img: '' , eg: '' , alt:' '},
-  {id: 'ጻ' , name: 'ጻ' , sound: 'soundFile/ጻ.mp3' , img: '' , eg: 'ጻዕዳ' , alt:' '},
+  {id: 'ጻ' , name: 'ጻ' , sound: 'soundFile/ጻ.mp3' , img: '' , eg: 'ጻጸ' , alt:'&#128028;'},
   {id: 'ጼ' , name: 'ጼ' , sound: 'soundFile/ጼ.mp3' , img: '' , eg: '' , alt:' '},
   {id: 'ጽ' , name: 'ጽ' , sound: 'soundFile/ጽ.mp3' , img: '' , eg: 'ጽንብላሊዕ' , alt:' 🦋'},
   {id: 'ጾ' , name: 'ጾ' , sound: 'soundFile/ጾ.mp3' , img: '' , eg: '' , alt:' '}
