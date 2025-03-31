@@ -288,4 +288,4 @@ const fulls = [
   {id: 'ፕ' , name: 'ፕ' , sound: 'soundFile/ፕ.mp3' , img: 'https://cdn.pixabay.com/photo/2016/02/15/12/14/space-1201086_1280.jpg' , eg: 'ፕላኔት' , alt:'🪐 '},
   {id: 'ፖ' , name: 'ፖ' , sound: 'soundFile/ፖ.mp3' , img: 'https://cdn.pixabay.com/photo/2013/07/12/12/03/police-145194_1280.png' , eg: 'ፖሊስ' , alt:'👮 '}
 ]
-]
+];
