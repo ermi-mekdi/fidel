@@ -13,31 +13,21 @@
       <span id="card-img" ></span>
       <span size="larger" id="card-eg" ></span>
 
-      
-       
-      <div class="js-alfabet"></div>    
-      
-
-      <a href="game1.html"><button class="togame"> To game ናብ ጸወታ</button></a>         
-      
-
-  
   <audio id="myAudio"></audio>  
  <script src="./data/fullLeters.js"></script>
  <script src="./scripts/fidel.js"></script>
  <script>
-  let fullsHTML= ''; 
-fulls.forEach(full => {
-  
-  full.forEach(obj => {
-    fullsHTML+= `
-    <button  onclick="playSee('${obj.sound}', '${obj.img}', '${obj.alt}', '${obj.eg}')">${obj.name}</button>    
-    `;
-    //console.log( obj.name,  obj.id,);
-  });
-});
-
-document.querySelector('.js-alfabet').innerHTML = fullsHTML ;
+   fulls.forEach(full => {
+      full.forEach(obj => {       
+        document.write(`
+        <button
+          onclick="playSee('${obj.sound}', '${obj.img}', '${obj.alt}', '${obj.eg}')">
+          ${obj.name}
+        </button>`);       
+    });
+    document.write('<br>');
+   });
+   document.write('<a href="game1.html"><button class="togame"> To game ናብ ጸወታ</button></a>')
  </script>
 </body>
 
